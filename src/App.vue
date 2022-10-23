@@ -1,7 +1,7 @@
 <script lang="tsx">
 import { defineComponent } from "vue";
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import HelloWorld from "./components/HelloWorld.js";
 export default defineComponent({
   components: {
     HelloWorld,
