@@ -25,6 +25,7 @@ export default defineComponent({
             <nav>
               <RouterLink to="/">Home</RouterLink>
               <RouterLink to="/about">About</RouterLink>
+              <RouterLink to="/study">Study</RouterLink>
             </nav>
           </div>
           <RouterView />

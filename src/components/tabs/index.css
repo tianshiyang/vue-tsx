@@ -1,0 +1,20 @@
+.tabs-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #EEE;
+  border-radius: 5px;
+}
+
+.tabs-item {
+  padding: 10px 15px;
+  height: 60px;
+  line-height: 42px;
+  color: #FFF;
+  background-color: #1a1a1b;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px 15px;
+}
