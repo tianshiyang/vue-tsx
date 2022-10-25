@@ -29,6 +29,11 @@ const router = createRouter({
       name: "vFor",
       component: () => import("@/views/v-for/index.js"),
     },
+    {
+      path: "/dynamic-class",
+      name: "dynamicClass",
+      component: () => import("@/views/dynamic-class/dynamicClass.js"),
+    },
   ],
 });
 

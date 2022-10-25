@@ -12,7 +12,7 @@ const tabsList = [
   },
   {
     name: "动态class",
-    path: "class",
+    path: "dynamic-class",
   },
   {
     name: "父子传值",
