@@ -4,9 +4,6 @@ import HelloWorld from "./components/HelloWorld.js";
 import "./App.css";
 
 export default defineComponent({
-  components: {
-    HelloWorld,
-  },
   setup() {
     return () => {
       return (

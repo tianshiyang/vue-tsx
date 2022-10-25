@@ -22,7 +22,12 @@ const router = createRouter({
     {
       path: "/v-if",
       name: "vIf",
-      component: () => import("@/views/v-if/v-if"),
+      component: () => import("@/views/v-if/v-if.js"),
+    },
+    {
+      path: "/v-for",
+      name: "vFor",
+      component: () => import("@/views/v-for/index.js"),
     },
   ],
 });

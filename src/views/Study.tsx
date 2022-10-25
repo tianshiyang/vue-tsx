@@ -8,23 +8,23 @@ const tabsList = [
   },
   {
     name: "vFor",
-    path: "",
+    path: "v-for",
   },
   {
     name: "动态class",
-    path: "",
+    path: "class",
   },
   {
     name: "父子传值",
-    path: "",
+    path: "father-and-child",
   },
   {
     name: "插槽",
-    path: "",
+    path: "slot",
   },
   {
     name: "watch&computed",
-    path: "",
+    path: "watch-computed",
   },
 ];
 
