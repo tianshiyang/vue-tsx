@@ -15,16 +15,8 @@ const tabsList = [
     path: "dynamic-class",
   },
   {
-    name: "父子传值",
-    path: "father-and-child",
-  },
-  {
-    name: "插槽",
-    path: "slot",
-  },
-  {
-    name: "watch&computed",
-    path: "watch-computed",
+    name: "超级组件",
+    path: "components-plus",
   },
 ];
 

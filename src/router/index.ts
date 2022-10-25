@@ -34,6 +34,11 @@ const router = createRouter({
       name: "dynamicClass",
       component: () => import("@/views/dynamic-class/dynamicClass.js"),
     },
+    {
+      path: "/components-plus",
+      name: "componentsPlus",
+      component: () => import("@/views/plus-page/index.js"),
+    },
   ],
 });
 
