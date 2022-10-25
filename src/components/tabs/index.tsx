@@ -27,7 +27,7 @@ export default defineComponent({
       return (
         <div class="tabs-nav">
           {props.tabsList?.map((item) => (
-            <div class="tabs-item" onClick={handlTabsItemClick(item)}>
+            <div class="tabs-item" onClick={() => handlTabsItemClick(item)}>
               {item.name}
             </div>
           ))}

@@ -4,7 +4,7 @@ import Tabs from "@/components/tabs/index.js";
 const tabsList = [
   {
     name: "vIf",
-    path: "",
+    path: "v-if",
   },
   {
     name: "vFor",

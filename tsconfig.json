@@ -12,6 +12,9 @@
     }
   ],
   "baseUrl": ".",
+  "compilerOptions": {
+    "jsx": "preserve"
+  },
   "paths": {
     "@/*":["src/*"]
   }

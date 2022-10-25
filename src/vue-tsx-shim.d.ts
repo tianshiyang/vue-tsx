@@ -3,17 +3,17 @@ import "vue";
 type EventHandler = (...args: any[]) => void;
 
 declare module "vue" {
-  interface ComponentCustomProps {
+  interface HTMLAttributes {
     id?: string;
     role?: string;
     tabindex?: number;
-    onClick?: EventHandler;
-    onTouchend?: EventHandler;
-    onTouchmove?: EventHandler;
-    onTouchstart?: EventHandler;
-    onTouchcancel?: EventHandler;
-    onTouchmovePassive?: EventHandler;
-    onTouchstartPassive?: EventHandler;
+    onClick?: unknown;
+    onTouchend?: unknown;
+    onTouchmove?: unknown;
+    onTouchstart?: unknown;
+    onTouchcancel?: unknown;
+    onTouchmovePassive?: unknown;
+    onTouchstartPassive?: unknown;
   }
 
   interface HTMLAttributes {
