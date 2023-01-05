@@ -1,4 +1,3 @@
-import { useExpose } from "@/utils/use-expose";
 import { defineComponent, ref } from "vue";
 import "./index.css";
 
@@ -15,7 +14,7 @@ export default defineComponent({
     },
   },
   emits: ["update:modelValue", "handleEventCallBack"],
-  setup(props, { emit, slots }) {
+  setup(props, { emit, slots, expose }) {
     const renderSlot = () => {
       return (
         <button onClick={() => console.log("点击底部按钮")}>footer按钮</button>
@@ -36,7 +35,7 @@ export default defineComponent({
     };
 
     // 导出组件方法，可供父组件直接使用
-    useExpose({
+    expose({
       resetCount,
     });
 
